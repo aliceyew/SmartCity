@@ -15,7 +15,7 @@ ax = fig.gca(projection='3d')
 # generate x, y and z coordinates
 #X = numpy.arange(0, 620) #512
 #Y = numpy.arange(0, 460) #424
-z = numpy.loadtxt("24in_RealCrack1.txt", delimiter=" ")
+z = numpy.loadtxt("24in_RealCrack1.txt", delimiter="\t")
 # No hardcoding
 x,y = z.shape
 X = numpy.arange(0, x)
